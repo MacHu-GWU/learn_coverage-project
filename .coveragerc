@@ -1,0 +1,4 @@
+[run]
+omit =
+    learn_coverage/pkg/*
+    learn_coverage/zzz_ezinstall.py
