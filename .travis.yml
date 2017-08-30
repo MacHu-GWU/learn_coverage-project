@@ -7,10 +7,13 @@ python:
 install:
   - pip install --editable . # Install it self
   - pip install --upgrade pytest # Upgrade pytest to lastest
-script: py.test tests
+  - pip install coveralls # Install coverall
+script:
+  - pytest tests
+  - pytest tests --cov=learn_coverage
 notifications:
   slack:
     on_success: never
     on_failure: never
 after_success:
-  - coveralls
+  coveralls
