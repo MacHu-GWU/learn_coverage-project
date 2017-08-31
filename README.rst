@@ -1,15 +1,25 @@
 .. image:: https://travis-ci.org/MacHu-GWU/learn_coverage-project.svg?branch=master
+    :target: https://travis-ci.org/MacHu-GWU/learn_coverage-project?branch=master
+
+.. image:: https://coveralls.io/repos/github/MacHu-GWU/learn_coverage-project/badge.svg?branch=master
+    :target: https://coveralls.io/github/MacHu-GWU/learn_coverage-project?branch=master
 
 .. image:: https://img.shields.io/pypi/v/learn_coverage.svg
+    :target: https://pypi.python.org/pypi/learn_coverage
 
 .. image:: https://img.shields.io/pypi/l/learn_coverage.svg
+    :target: https://pypi.python.org/pypi/learn_coverage
 
 .. image:: https://img.shields.io/pypi/pyversions/learn_coverage.svg
+    :target: https://pypi.python.org/pypi/learn_coverage
+
+.. image:: https://img.shields.io/badge/Star_Me_on_GitHub!--None.svg?style=social
+    :target: https://github.com/MacHu-GWU/learn_coverage-project
 
 
 Welcome to learn_coverage Documentation
 ===========================================
-This is just a example project for demonstration purpose.
+This project is to learn doing code coverage test and continues integration using https://coveralls.io/.
 
 
 **Quick Links**
